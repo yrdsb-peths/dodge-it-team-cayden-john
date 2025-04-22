@@ -15,6 +15,13 @@ public class Bomb extends Actor
         if(getX() <= 0) {
             resetBomb();
         }
+        
+        if(isTouching(Hero.class)) {
+            // Add a gameover symbol
+            LoserBee loserBee = new LoserBee();
+            getWorld().addObject(loserBee, 300, 200);
+            getWorld().removeObject(this);
+        }
     }
     
     public void resetBomb() {

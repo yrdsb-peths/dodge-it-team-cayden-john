@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 
-public class hero extends Actor
+public class Hero extends Actor
 {
     boolean atTop = true;
     
