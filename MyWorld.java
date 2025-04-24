@@ -8,6 +8,8 @@ public class MyWorld extends World {
         
         Bomb bomb = new Bomb();
         addObject(bomb, 600, 100);
-
+        
+        Bomb2 bomb2 = new Bomb2();
+        addObject(bomb2, 600, 300);
     }
 }

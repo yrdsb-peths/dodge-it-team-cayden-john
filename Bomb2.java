@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bomb here.
+ * Write a description of class bomb2 here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Bomb extends Actor
+public class Bomb2 extends Actor
 {
     public void act()
     {
-        move(-3);
+        move(-4);
         
         if(getX() <= 0) {
             resetBomb();
